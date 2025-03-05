@@ -82,7 +82,7 @@ export default function Navbar() {
                     <a className="dropdown-item" href="/portforlio1">
                       การดำเนินการเปลี่ยนแปลงองค์การภาครัฐ
                     </a>
-                    <a className="dropdown-item" href="portfolio-4-col.html">
+                    <a className="dropdown-item" href="/portforlio2">
                       การแทรกแซงและการจัดกิจกรรมพัฒนาองค์การภาครัฐ
                     </a>
                     <a className="dropdown-item" href="portfolio-item.html">

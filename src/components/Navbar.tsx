@@ -51,7 +51,7 @@ export default function Navbar() {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/">
+                  <a className="nav-link" href="/service">
                     บริการ
                   </a>
                 </li>
@@ -108,18 +108,18 @@ export default function Navbar() {
                     <a className="dropdown-item" href="/ai">
                       AI ตรวจวินิจฉัยโรคมะเร็งปอด
                     </a>
-                    <a className="dropdown-item" href="blog-home-2.html">
+                    {/* <a className="dropdown-item" href="blog-home-2.html">
                       Blog Home 2
                     </a>
                     <a className="dropdown-item" href="blog-post.html">
                       Blog Post
-                    </a>
+                    </a> */}
                   </div>
                 </li>
                 <li className="nav-item dropdown">
                   <a
                     className="nav-link dropdown-toggle"
-                    href="#"
+                    href="/lifelonglearning"
                     id="navbarDropdownBlog"
                     data-toggle="dropdown"
                     aria-haspopup="true"
@@ -131,19 +131,19 @@ export default function Navbar() {
                     className="dropdown-menu dropdown-menu-right"
                     aria-labelledby="navbarDropdownBlog"
                   >
-                    <a className="dropdown-item" href="faq.html">
-                      FAQ
+                    <a className="dropdown-item" href="/lifelonglearning">
+                      การเรียนรู้ตลอดชีวิต
                     </a>
-                    <a className="dropdown-item" href="404.html">
+                    {/* <a className="dropdown-item" href="404.html">
                       404
                     </a>
                     <a className="dropdown-item" href="pricing.html">
                       Pricing Table
-                    </a>
+                    </a> */}
                   </div>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="contact.html">
+                  <a className="nav-link" href="/contact">
                     ติดต่อ
                   </a>
                 </li>
